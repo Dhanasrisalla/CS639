@@ -51,24 +51,22 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="132dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="440dp"
-        android:src="@drawable/interstellar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="137dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="360dp"
+        android:src="@drawable/computer"
+        app:layout_constraintBottom_toTopOf="@+id/button_second"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="155dp"
-        android:layout_height="127dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="88dp"
-        android:src="@drawable/space"
+        android:layout_width="127dp"
+        android:layout_height="137dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/smile"
         app:layout_constraintBottom_toTopOf="@+id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
